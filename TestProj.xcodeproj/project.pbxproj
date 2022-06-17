@@ -12,6 +12,7 @@
 		950A5512285B0B4F00AFA809 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950A5510285B0B4F00AFA809 /* CollectionViewCell.swift */; };
 		950A5513285B0B4F00AFA809 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 950A5511285B0B4F00AFA809 /* CollectionViewCell.xib */; };
 		950A551E285C4C9000AFA809 /* StudentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950A551D285C4C9000AFA809 /* StudentData.swift */; };
+		950A552C285CA64600AFA809 /* FileDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950A552B285CA64600AFA809 /* FileDownloader.swift */; };
 		95199E9F2858633900CBED66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95199E9E2858633900CBED66 /* AppDelegate.swift */; };
 		95199EA12858633900CBED66 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95199EA02858633900CBED66 /* SceneDelegate.swift */; };
 		95199EA32858633900CBED66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95199EA22858633900CBED66 /* ViewController.swift */; };
@@ -26,6 +27,7 @@
 		950A5510285B0B4F00AFA809 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		950A5511285B0B4F00AFA809 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 		950A551D285C4C9000AFA809 /* StudentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentData.swift; sourceTree = "<group>"; };
+		950A552B285CA64600AFA809 /* FileDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileDownloader.swift; sourceTree = "<group>"; };
 		95199E9B2858633900CBED66 /* TestProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95199E9E2858633900CBED66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95199EA02858633900CBED66 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 		950A551A285B20F900AFA809 /* tableClasses */ = {
 			isa = PBXGroup;
 			children = (
+				950A552B285CA64600AFA809 /* FileDownloader.swift */,
 				950A551D285C4C9000AFA809 /* StudentData.swift */,
 			);
 			path = tableClasses;
@@ -173,6 +176,7 @@
 			files = (
 				950A551E285C4C9000AFA809 /* StudentData.swift in Sources */,
 				950A5512285B0B4F00AFA809 /* CollectionViewCell.swift in Sources */,
+				950A552C285CA64600AFA809 /* FileDownloader.swift in Sources */,
 				95199EA32858633900CBED66 /* ViewController.swift in Sources */,
 				950A550E285B0B3F00AFA809 /* TableViewCell.swift in Sources */,
 				95199E9F2858633900CBED66 /* AppDelegate.swift in Sources */,
